@@ -1,0 +1,24 @@
+{
+  "name": "@monorepo-shoppingcart/core",
+  "version": "1.0.0",
+  "description": "monorepo for shoppingcart",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "yarn workspaces foreach run install",
+    "echo-all": "yarn workspaces foreach run echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeswararaosundarapu/monorepo-shoppingcart.git"
+  },
+  "author": "Ganesh Sundarapu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeswararaosundarapu/monorepo-shoppingcart/issues"
+  },
+  "homepage": "https://github.com/ganeswararaosundarapu/monorepo-shoppingcart#readme"
+}

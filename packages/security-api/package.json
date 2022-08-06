@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo-shoppingcart/security-api",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "echo": "echo \"I'm echo from security api\""
+  }
+}
