@@ -1,7 +1,7 @@
-# Yarn
+# prevent yarn zero-installs feature to commit into git repo
+.pnp.*
 .yarn/*
-!.yarn/cache
-!.yarn/releases
+!.yarn/patches
 !.yarn/plugins
-!.yarn/sdks
+!.yarn/releases
 !.yarn/versions
