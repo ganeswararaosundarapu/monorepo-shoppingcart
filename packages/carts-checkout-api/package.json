@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-shoppingcart/carts-checkout-api",
+  "name": "@shoppingcart/carts-checkout-api",
   "packageManager": "yarn@3.2.0",
   "scripts": {
     "echo": "echo \"I'm echo from carts and checkout api\""

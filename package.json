@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-shoppingcart/core",
+  "name": "@shoppingcart/core",
   "version": "1.0.0",
   "description": "monorepo for shoppingcart",
   "main": "index.js",
@@ -7,9 +7,10 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified \" && exit 1",
     "install-all": "yarn workspaces foreach run install",
-    "echo-all": "yarn workspaces foreach run echo"
+    "echo-all": "yarn workspaces foreach run echo",
+    "build-all": "yarn workspaces foreach run build"
   },
   "repository": {
     "type": "git",
