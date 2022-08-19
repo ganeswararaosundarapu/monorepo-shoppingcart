@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified \" && exit 1",
     "install-all": "yarn workspaces foreach run install",
     "echo-all": "yarn workspaces foreach run echo",
-    "build-all": "yarn workspaces foreach run build"
+    "build-all": "yarn workspaces foreach run build",
+    "start-ui": "yarn workspace @shoppingcart/ui run dev"
   },
   "repository": {
     "type": "git",
