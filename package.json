@@ -11,7 +11,8 @@
     "install-all": "yarn workspaces foreach run install",
     "echo-all": "yarn workspaces foreach run echo",
     "build-all": "yarn workspaces foreach run build",
-    "start-ui": "yarn workspace @shoppingcart/ui run dev"
+    "start-ui": "yarn workspace @shoppingcart/ui run dev",
+    "lint-all": "yarn workspaces foreach run lint"
   },
   "repository": {
     "type": "git",
