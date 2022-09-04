@@ -7,11 +7,11 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         use:  {
             loader: require.resolve('babel-loader'),
             options: {
-                presets: ['@babel/preset-react']
+                presets: ['@babel/preset-react', '@babel/preset-typescript']
             }
         },
         exclude: /node_modules/
@@ -28,10 +28,10 @@ const config = {
     ]
   },
   resolve: {
-    extensions: ['.mjs', '.js', '.jsx']
+    extensions: ['.mjs', '.js', '.jsx', '.ts', '.tsx']
   },
   entry: {
-    'shoppingcart-ui': './src/index.jsx'
+    'shoppingcart-ui': './src/index.tsx'
   },
   output: {
     filename: 'ui/[name].min.js',
