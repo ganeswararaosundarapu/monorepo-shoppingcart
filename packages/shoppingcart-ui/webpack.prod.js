@@ -6,4 +6,4 @@ const common = require('./webpack.common.js')
    devtool: 'nosources-source-map'
  }
 
- module.exports = merge(common, prodConfig)
+ module.exports = merge(common(false), prodConfig)

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import * as ReactDOM from 'react-dom'
-import './app.css'
+import './app.scss'
 
 interface Props { 
 	message?: string

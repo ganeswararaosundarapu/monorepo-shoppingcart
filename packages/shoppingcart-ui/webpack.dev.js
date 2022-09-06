@@ -6,4 +6,4 @@ const devConfig = {
   devtool: 'source-map'
 }
 
-module.exports = merge(common, devConfig)
+module.exports = merge(common(true), devConfig)
