@@ -1,26 +1,49 @@
-$bg-color1: azure;
+$bg-color1: rgba(71, 223, 223, 0.582);
 $text-color-blue: blue;
 
-.container {
-    font-size: 12px;
-    width: 100%;
-    height: 500px;
-    background-color: $bg-color1;
-
-    .header {
-        font-size: 20px;
-        font-weight: 700;
-        color: $text-color-blue;
-    }
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.align-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  color: $text-color-blue;
 }
 
 .cart-icon {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+body{        
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 0;
+  font-size: 16px;
+}
+.fixed-header, .fixed-footer{
+  width: 100%;
+  position: fixed;        
+  background: $bg-color1;
+  padding: 10px 0;
+  color: #000;
+}
+.fixed-header{
+  top: 0;
+}
+.fixed-footer{
+  bottom: 0;
+}
+.container{
+  width: 80%;
+  margin: 0 auto; /* Center the DIV horizontally */
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
 }

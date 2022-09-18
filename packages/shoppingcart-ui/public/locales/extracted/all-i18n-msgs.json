@@ -1,0 +1,18 @@
+[
+  {
+    "id": "home",
+    "defaultMessage": "Home"
+  },
+  {
+    "id": "products",
+    "defaultMessage": "Products"
+  },
+  {
+    "id": "welcomeMessage",
+    "defaultMessage": "Welcome to the shopping cart"
+  },
+  {
+    "id": "dateMessage",
+    "defaultMessage": "Current Date is"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Home",
+        "id": "home"
+      },
+      {
+        "defaultMessage": "Products",
+        "id": "products"
+      },
+      {
+        "defaultMessage": "Welcome to the shopping cart",
+        "id": "welcomeMessage"
+      },
+      {
+        "defaultMessage": "Current Date is",
+        "id": "dateMessage"
+      }
+    ],
+    "path": "all-i18n-msgs.json"
+  }
+]

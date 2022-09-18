@@ -13,8 +13,9 @@ const config = (isDevMode = true) => {
           use: {
             loader: require.resolve('babel-loader'),
             options: {
-              presets: ['@babel/preset-react', '@babel/preset-typescript']
-            }
+              presets: ['@babel/preset-react', '@babel/preset-typescript'],
+              plugins: ["@babel/plugin-syntax-dynamic-import"]
+            },
           },
           exclude: /node_modules/
         },
@@ -52,7 +53,7 @@ const config = (isDevMode = true) => {
       publicPath: '/',
       path: path.join(__dirname, '/build') + '/public'
     },
-    target: 'node',
+    target: 'web',
     plugins: [
       new CopyPlugin({
         patterns: [
@@ -63,7 +64,11 @@ const config = (isDevMode = true) => {
         filename: "css/[name].css",
         chunkFilename: "css/[id].css"
       })
-    ]
+    ],
+    optimization: {
+      moduleIds: 'deterministic',
+      runtimeChunk: 'single'
+    }
   })
 }
 
